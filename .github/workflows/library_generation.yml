@@ -14,14 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - distro: humble
-            branch: humble
-          - distro: iron
-            branch: iron
           - distro: jazzy
             branch: jazzy
-          - distro: rolling
-            branch: rolling
     steps:
       - uses: actions/checkout@v4
         with:
