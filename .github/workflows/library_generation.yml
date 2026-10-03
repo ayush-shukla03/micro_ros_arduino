@@ -15,7 +15,7 @@ jobs:
       matrix:
         include:
           - distro: jazzy
-            branch: jazzy
+            branch: main
     steps:
       - uses: actions/checkout@v4
         with:
